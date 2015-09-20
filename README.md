@@ -60,3 +60,4 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 
 * [task.js](https://github.com/mozilla/task.js) - Write async functions in a blocking style using promises and generators. Like `bluebird.coroutine`.
 * [co](https://github.com/tj/co) - Like `task.js` and `bluebird.coroutine`, but supports thunks too.
+* [lie-fs](https://www.npmjs.com/package/lie-fs) - Promise wrappers for Node's FS API.
