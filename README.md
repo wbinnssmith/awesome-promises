@@ -28,6 +28,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. N
 * [JavaScript with Promises](http://shop.oreilly.com/product/0636920032151.do) - from O'Reilly. Short and to-the-point. Uses native and bluebird.
 * [Promisees](http://bevacqua.github.io/promisees) - Promise visualization playground for the adventurous.
 * [Promise it won't hurt](https://github.com/stevekane/promise-it-wont-hurt) - An interactive [nodeschool](http://nodeschool.io/) workshop
+* [We have a problem with promises](http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html) "Many of us are using promises without really understanding them."
 
 ## Promises/A+ Implementations (ES6/ES2015 compatible)
 
