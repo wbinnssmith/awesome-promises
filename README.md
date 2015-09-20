@@ -17,7 +17,8 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. N
 * [Fates and States](https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md) Quick definitions of possible states.
 * [Promise anti-patterns](https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns) Common misuses and how to avoid them.
 * [JavaScript with Promises](http://shop.oreilly.com/product/0636920032151.do) from O'Reilly. Short and to-the-point. Uses native and bluebird.
-
+ * [We have a problem with promises](http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html) Are you a promise expert ?
+ 
 ## Promises/A+ Implementations (ES6/ES2015 compatible)
 
 ### Strict Implementations
