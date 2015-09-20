@@ -17,6 +17,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. N
 * [Fates and States](https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md) Quick definitions of possible states.
 * [Promise anti-patterns](https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns) Common misuses and how to avoid them.
 * [JavaScript with Promises](http://shop.oreilly.com/product/0636920032151.do) from O'Reilly. Short and to-the-point. Uses native and bluebird.
+* [Promisees](http://bevacqua.github.io/promisees) Promise visualization playground for the adventurous. 
 
 ## Promises/A+ Implementations (ES6/ES2015 compatible)
 
@@ -60,3 +61,4 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 
 * [task.js](https://github.com/mozilla/task.js) - Write async functions in a blocking style using promises and generators. Like `bluebird.coroutine`.
 * [co](https://github.com/tj/co) - Like `task.js` and `bluebird.coroutine`, but supports thunks too.
+* [lie-fs](https://www.npmjs.com/package/lie-fs) - Promise wrappers for Node's FS API.
