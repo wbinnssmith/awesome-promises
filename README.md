@@ -27,7 +27,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. N
 * [Promise anti-patterns](https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns) Common misuses and how to avoid them.
 * [JavaScript with Promises](http://shop.oreilly.com/product/0636920032151.do) from O'Reilly. Short and to-the-point. Uses native and bluebird.
 * [Promisees](http://bevacqua.github.io/promisees) Promise visualization playground for the adventurous.
-
+* [Promise it won't hurt](https://github.com/stevekane/promise-it-wont-hurt) An interactive [nodeschool](http://nodeschool.io/) workshop
 ## Promises/A+ Implementations (ES6/ES2015 compatible)
 
 ### Strict Implementations
