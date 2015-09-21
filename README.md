@@ -20,23 +20,24 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. N
 ## Resources, Blogs, and Books
 
 * [caniuse promises](http://caniuse.com/#feat=promises)
-* [Promise Cookbook](https://github.com/mattdesl/promise-cookbook) The why, what, and how. "A brief introduction [...] primarily aimed at frontend developers".
-* [You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/) @domenic shows that promises are much more than callback aggregation, and that jQuery's implementation (prior to 3.0) isn't enough.
-* [JavaScript Promises: There and back again](http://www.html5rocks.com/en/tutorials/es6/promises/) Basics of JavaScript's native promise implementation.
-* [Fates and States](https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md) Quick definitions of possible states.
-* [Promise anti-patterns](https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns) Common misuses and how to avoid them.
-* [JavaScript with Promises](http://shop.oreilly.com/product/0636920032151.do) from O'Reilly. Short and to-the-point. Uses native and bluebird.
-* [Promisees](http://bevacqua.github.io/promisees) Promise visualization playground for the adventurous.
-* [Promise it won't hurt](https://github.com/stevekane/promise-it-wont-hurt) An interactive [nodeschool](http://nodeschool.io/) workshop
+* [Promise Cookbook](https://github.com/mattdesl/promise-cookbook) - The why, what, and how. "A brief introduction [...] primarily aimed at frontend developers".
+* [You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/) - @domenic shows that promises are much more than callback aggregation, and that jQuery's implementation (prior to 3.0) isn't enough.
+* [JavaScript Promises: There and back again](http://www.html5rocks.com/en/tutorials/es6/promises/) - Basics of JavaScript's native promise implementation.
+* [Fates and States](https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md) - Quick definitions of possible states.
+* [Promise anti-patterns](https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns) - Common misuses and how to avoid them.
+* [JavaScript with Promises](http://shop.oreilly.com/product/0636920032151.do) - from O'Reilly. Short and to-the-point. Uses native and bluebird.
+* [Promisees](http://bevacqua.github.io/promisees) - Promise visualization playground for the adventurous.
+* [Promise it won't hurt](https://github.com/stevekane/promise-it-wont-hurt) - An interactive [nodeschool](http://nodeschool.io/) workshop
+
 ## Promises/A+ Implementations (ES6/ES2015 compatible)
 
 ### Strict Implementations
 These implement no more or less than the es6 spec. They make great polyfills and are exceptionally compatible with native promises.
 
-* [pinkie](https://github.com/floatdrop/pinkie) Ponyfill. Node-oriented, but [browserifyable](https://github.com/substack/node-browserify). *Extremely* small implementation.
-* [native-promise-only](https://github.com/getify/native-promise-only) Polyfill. Browser and node-compatible.
-* [es6-promise](https://github.com/jakearchibald/es6-promise) Opt-in polyfill. A strict-spec subset of rsvp.js.
-* [lie](https://github.com/calvinmetcalf/lie) Small, browserifyable with an opt-in polyfill.
+* [pinkie](https://github.com/floatdrop/pinkie) - Ponyfill. Node-oriented, but [browserifyable](https://github.com/substack/node-browserify). *Extremely* small implementation.
+* [native-promise-only](https://github.com/getify/native-promise-only) - Polyfill. Browser and node-compatible.
+* [es6-promise](https://github.com/jakearchibald/es6-promise) - Opt-in polyfill. A strict-spec subset of rsvp.js.
+* [lie](https://github.com/calvinmetcalf/lie) - Small, browserifyable with an opt-in polyfill.
 
 ### Implementations with extras
 All of these provide more features than the language yet remain compatible. Node + Browsers for all.
