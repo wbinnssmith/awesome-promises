@@ -21,7 +21,8 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. N
 
 * [caniuse promises](http://caniuse.com/#feat=promises)
 * [Promise Cookbook](https://github.com/mattdesl/promise-cookbook) - The why, what, and how. "A brief introduction [...] primarily aimed at frontend developers".
-* [Promises for Asynchronous Programming](http://exploringjs.com/es6/ch_promises.html) Chapter from [Exploring ES6](http://exploringjs.com/)
+* [Promises for Asynchronous Programming](http://exploringjs.com/es6/ch_promises.html) - Chapter from [Exploring ES6](http://exploringjs.com/)
+* [You Don't Know JS: Promises](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch3.md) - Chapter from [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance)
 * [You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/) - Promises are much more than callback aggregation, and that jQuery's implementation (prior to 3.0) isn't enough.
 * [JavaScript Promises: There and back again](http://www.html5rocks.com/en/tutorials/es6/promises/) - Basics of JavaScript's native promise implementation.
 * [Fates and States](https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md) - Quick definitions of possible states.
