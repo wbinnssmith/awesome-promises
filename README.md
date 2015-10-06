@@ -69,6 +69,7 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 * [pify](https://github.com/sindresorhus/pify) - Promisify ("denodify") a callback-style function.
 * [promise-every](https://github.com/yoshuawuyts/promise-each) - Standalone `bluebird.every`. Execute one after the other sequentially.
 * [promise-filter](https://github.com/yoshuawuyts/promise-filter) - Standalone `bluebird.filter`. Filter an array to a promise.
+* [promise-finally](https://github.com/blakeembrey/promise-finally) - Standalone bluebird `finally()`. Execute a handler on success or failure.
 * [promise-map](https://github.com/yoshuawuyts/promise-map) - Standalone `bluebird.map`. Map an array to a promise.
 * [promise-method](https://github.com/wbinnssmith/promise-method) - Standalone `bluebird.method`. Turn a synchronously-returning method into a promise-returning one.
 * [promise-props](https://github.com/exponentjs/promise-props) - Standalone implementation of bluebird's `bluebird.props` or rsvp's `RSVP.hash`
