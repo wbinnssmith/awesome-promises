@@ -90,6 +90,7 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 * [lie-fs](https://www.npmjs.com/package/lie-fs) - Promise wrappers for Node's FS API.
 * [immediate-promise](https://github.com/sindresorhus/immediate-promise) - Returns a promise resolved in the next event loop - think `setImmediate()`.
 * [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time.
+* [promise-whilst](https://github.com/sindresorhus/promise-whilst) - Calls a function repeatedly while a condition returns true and then resolves the promise.
 
 ## License
 Licensed under the [Creative Commons CC0 License](https://creativecommons.org/publicdomain/zero/1.0/).
