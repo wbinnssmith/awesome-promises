@@ -91,6 +91,7 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 * [immediate-promise](https://github.com/sindresorhus/immediate-promise) - Returns a promise resolved in the next event loop - think `setImmediate()`.
 * [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time.
 * [promise-whilst](https://github.com/sindresorhus/promise-whilst) - Calls a function repeatedly while a condition returns true and then resolves the promise.
+* [loud-rejection](https://github.com/sindresorhus/loud-rejection) - Make unhandled promise rejections fail loudly instead of the default silent fail.
 
 ## License
 Licensed under the [Creative Commons CC0 License](https://creativecommons.org/publicdomain/zero/1.0/).
