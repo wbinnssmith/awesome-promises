@@ -81,10 +81,8 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 * [promise-reduce](https://github.com/yoshuawuyts/promise-reduce) - Standalone `bluebird.reduce`. Reduce an array to a promise.
 * [promise-some](https://github.com/yoshuawuyts/promise-some) - Standalone `bluebird.some`. Check if an element passes the predicate, return a promise.
 * [promise-try](https://github.com/wbinnssmith/promise-try) - Standalone `bluebird.try`. Execute a synchronously-returning function and return a promise.
-
 * [is-promise](https://github.com/then/is-promise) - Determine if something looks like a Promise.
 * [sprom](https://github.com/then/sprom) - Resolve when a stream ends. Optional buffering (be careful with this!)
-
 * [task.js](https://github.com/mozilla/task.js) - Write async functions in a blocking style using promises and generators. Like `bluebird.coroutine`.
 * [co](https://github.com/tj/co) - Like `task.js` and `bluebird.coroutine`, but supports thunks too.
 * [lie-fs](https://www.npmjs.com/package/lie-fs) - Promise wrappers for Node's FS API.
