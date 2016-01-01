@@ -1,5 +1,5 @@
-<a href="http://promisesaplus.com/">
-    <img src="http://promisesaplus.com/assets/logo-small.png" alt="Promises/A+ logo" align="right" />
+<a href="https://promisesaplus.com/">
+    <img src="https://promisesaplus.com/assets/logo-small.png" alt="Promises/A+ logo" align="right" />
 </a>
 
 # Awesome Promises [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
@@ -41,7 +41,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. N
 * [Promises/A+ specification](https://promisesaplus.com/)
 * [caniuse promises](http://caniuse.com/#feat=promises)
 * [Fates and States](https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md) - Quick definitions of possible states.
-* [Promisees](http://bevacqua.github.io/promisees) - Promise visualization playground for the adventurous.
+* [Promisees](https://bevacqua.github.io/promisees/) - Promise visualization playground for the adventurous.
 
 ## Promises/A+ Implementations (ES6/ES2015 compatible)
 
