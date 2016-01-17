@@ -27,6 +27,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. N
 * [JavaScript with Promises](http://shop.oreilly.com/product/0636920032151.do) - from O'Reilly. Short and to-the-point. Uses native and bluebird.
 * [Promise it won't hurt](https://github.com/stevekane/promise-it-wont-hurt) - An interactive [nodeschool](http://nodeschool.io/) workshop
 * [ES6 Kata Promises](http://es6katas.org/) - Promises Katas : [Basics](http://tddbin.com/#?kata=es6/language/promise/basics)
+* [ES6 Promises in Depth](https://ponyfoo.com/articles/es6-promises-in-depth)
 
 ### Deep Dive
 * [You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/) - Promises are much more than callback aggregation, and that jQuery's implementation (prior to 3.0) isn't enough.
