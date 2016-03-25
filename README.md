@@ -73,7 +73,7 @@ All of these provide more features than the language yet remain compatible. Node
 Native and strictly spec-compliant promises are awesome for compatibility, future-proofness, library authors, and browsers. However, libraries like bluebird patch goodies onto the `Promise` constructor and prototype. Solution? tiny modules of course!
 
 * [pify](https://github.com/sindresorhus/pify) - Promisify ("denodify") a callback-style function.
-* [promise-every](https://github.com/yoshuawuyts/promise-each) - Standalone `bluebird.every`. Execute one after the other sequentially.
+* [promise-each](https://github.com/yoshuawuyts/promise-each) - Standalone `bluebird.each`. Execute one after the other sequentially.
 * [promise-filter](https://github.com/yoshuawuyts/promise-filter) - Standalone `bluebird.filter`. Filter an array to a promise.
 * [promise-finally](https://github.com/blakeembrey/promise-finally) - Standalone bluebird `finally()`. Execute a handler unconditionally after others have been handled.
 * [promise-map](https://github.com/yoshuawuyts/promise-map) - Standalone `bluebird.map`. Map an array to a promise.
