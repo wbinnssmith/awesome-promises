@@ -94,6 +94,7 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 * [promise-until](https://github.com/busterc/promise-until) - Calls a function repeatedly if a condition returns false and until the condition returns true and then resolves the promise.
 * [promise-do-until](https://github.com/busterc/promise-do-until) - Calls a function repeatedly until a condition returns true and then resolves the promise.
 * [promise-do-whilst](https://github.com/busterc/promise-do-whilst) - Calls a function repeatedly while a condition returns true and then resolves the promise.
+* [promise-semaphore](https://github.com/samccone/promise-semaphore) - Push a set of work to be done in a configurable serial fashion
 
 ## License
 Licensed under the [Creative Commons CC0 License](https://creativecommons.org/publicdomain/zero/1.0/).
