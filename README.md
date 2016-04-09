@@ -80,6 +80,7 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 * [promise-method](https://github.com/wbinnssmith/promise-method) - Standalone `bluebird.method`. Turn a synchronously-returning method into a promise-returning one.
 * [promise-props](https://github.com/exponentjs/promise-props) - Standalone implementation of bluebird's `bluebird.props` or rsvp's `RSVP.hash`
 * [promise-reduce](https://github.com/yoshuawuyts/promise-reduce) - Standalone `bluebird.reduce`. Reduce an array to a promise.
+* [promise-ring](https://github.com/DavidAnson/promise-ring) - Convenience methods for converting Node.js callbacks into native Promises.
 * [promise-some](https://github.com/yoshuawuyts/promise-some) - Standalone `bluebird.some`. Check if an element passes the predicate, return a promise.
 * [promise-try](https://github.com/wbinnssmith/promise-try) - Standalone `bluebird.try`. Execute a synchronously-returning function and return a promise.
 * [is-promise](https://github.com/then/is-promise) - Determine if something looks like a Promise.
