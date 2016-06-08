@@ -95,6 +95,9 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 * [promise-do-until](https://github.com/busterc/promise-do-until) - Calls a function repeatedly until a condition returns true and then resolves the promise.
 * [promise-do-whilst](https://github.com/busterc/promise-do-whilst) - Calls a function repeatedly while a condition returns true and then resolves the promise.
 * [promise-semaphore](https://github.com/samccone/promise-semaphore) - Push a set of work to be done in a configurable serial fashion
+* [promise.timeout](https://github.com/magicdawn/promise.timeout) - Add timeout support for async funcitons. support resource cleaning with `onCancel`.
+* [promise.retry](https://github.com/magicdawn/promise.retry) - Add (timeout and fail) retry for async functions.
+* [promise.map](https://github.com/magicdawn/promise.map) - Same as `bluebird.map`, with `concurrency` support.
 
 ## License
 Licensed under the [Creative Commons CC0 License](https://creativecommons.org/publicdomain/zero/1.0/).
