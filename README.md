@@ -60,6 +60,7 @@ These implement no more or less than the es6 spec. They make great polyfills and
 All of these provide more features than the language yet remain compatible. Node + Browsers for all.
 
 * [bluebird](https://github.com/petkaantonov/bluebird) - Fully featured, extremely performant. Long stack traces & generator/coroutine support.
+* [creed](https://github.com/briancavalier/creed) - Hyper performant & full featured like Bluebird, but FP-oriented. Coroutines, generators, promises, ES2015 iterables, & fantasy-land spec.
 * [rsvp.js](https://github.com/tildeio/rsvp.js/) - Lightweight with a few extras. Compatible down to IE6!
 * [Q](https://github.com/kriskowal/q) - One of the original implementations. Long stack traces and other goodies.
 * [then/promise](https://github.com/then/promise) - Small with `nodeify`, `denodify` and `done()` additions.
