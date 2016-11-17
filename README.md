@@ -25,7 +25,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. N
 * [You Don't Know JS: Promises](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch3.md) - Chapter from [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance)
 * [JavaScript Promises: an Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/promises) - Basics of JavaScript's native promise implementation.
 * [JavaScript with Promises](http://shop.oreilly.com/product/0636920032151.do) - from O'Reilly. Short and to-the-point. Uses native and bluebird.
-* [Promise it won't hurt](https://github.com/stevekane/promise-it-wont-hurt) - An interactive [nodeschool](http://nodeschool.io/) workshop
+* [Promise it won't hurt](https://github.com/stevekane/promise-it-wont-hurt) - An interactive [nodeschool](https://nodeschool.io/) workshop
 * [ES6 Kata Promises](http://es6katas.org/) - Promises Katas : [Basics](http://tddbin.com/#?kata=es6/language/promise/basics)
 * [ES6 Promises in Depth](https://ponyfoo.com/articles/es6-promises-in-depth)
 
@@ -88,14 +88,13 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 * [task.js](https://github.com/mozilla/task.js) - Write async functions in a blocking style using promises and generators. Like `bluebird.coroutine`.
 * [co](https://github.com/tj/co) - Like `task.js` and `bluebird.coroutine`, but supports thunks too.
 * [lie-fs](https://www.npmjs.com/package/lie-fs) - Promise wrappers for Node's FS API.
-* [immediate-promise](https://github.com/sindresorhus/immediate-promise) - Returns a promise resolved in the next event loop - think `setImmediate()`.
 * [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time.
-* [promise-whilst](https://github.com/sindresorhus/promise-whilst) - Calls a function repeatedly if and while a condition returns true and then resolves the promise.
 * [loud-rejection](https://github.com/sindresorhus/loud-rejection) - Make unhandled promise rejections fail loudly instead of the default silent fail.
 * [promise-until](https://github.com/busterc/promise-until) - Calls a function repeatedly if a condition returns false and until the condition returns true and then resolves the promise.
 * [promise-do-until](https://github.com/busterc/promise-do-until) - Calls a function repeatedly until a condition returns true and then resolves the promise.
 * [promise-do-whilst](https://github.com/busterc/promise-do-whilst) - Calls a function repeatedly while a condition returns true and then resolves the promise.
 * [promise-semaphore](https://github.com/samccone/promise-semaphore) - Push a set of work to be done in a configurable serial fashion
-
+* [p-immediate](https://github.com/sindresorhus/p-immediate) - Returns a promise resolved in the next event loop - think `setImmediate()`.
+* [p-whilst](https://github.com/sindresorhus/p-whilst) - Calls a function repeatedly if and while a condition returns true and then resolves the promise.
 ## License
 Licensed under the [Creative Commons CC0 License](https://creativecommons.org/publicdomain/zero/1.0/).
