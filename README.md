@@ -75,7 +75,7 @@ All of these provide more features than the language yet remain compatible. Node
 ## Convenience Utilities
 Native and strictly spec-compliant promises are awesome for compatibility, future-proofness, library authors, and browsers. However, libraries like bluebird patch goodies onto the `Promise` constructor and prototype. Solution? tiny modules of course!
 
-### sindresorhus's many Promise utilities [see notes](https://github.com/sindresorhus/promise-fun)
+### sindresorhus's many Promise utilities ([see notes](https://github.com/sindresorhus/promise-fun))
 * [pify](https://github.com/sindresorhus/pify) - Promisify ("denodify") a callback-style function.
 * [p-queue](https://github.com/sindresorhus/p-queue) - Promise queue with concurrency control
 * [p-break](https://github.com/sindresorhus/p-break) - Break out of a promise chain
