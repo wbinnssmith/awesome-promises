@@ -75,28 +75,53 @@ All of these provide more features than the language yet remain compatible. Node
 ## Convenience Utilities
 Native and strictly spec-compliant promises are awesome for compatibility, future-proofness, library authors, and browsers. However, libraries like bluebird patch goodies onto the `Promise` constructor and prototype. Solution? tiny modules of course!
 
+### sindresorhus's many Promise utilities [see notes](https://github.com/sindresorhus/promise-fun)
 * [pify](https://github.com/sindresorhus/pify) - Promisify ("denodify") a callback-style function.
-* [promise-each](https://github.com/yoshuawuyts/promise-each) - Standalone `bluebird.each`. Execute one after the other sequentially.
-* [promise-filter](https://github.com/yoshuawuyts/promise-filter) - Standalone `bluebird.filter`. Filter an array to a promise.
-* [promise-finally](https://github.com/blakeembrey/promise-finally) - Standalone bluebird `finally()`. Execute a handler unconditionally after others have been handled.
-* [promise-map](https://github.com/yoshuawuyts/promise-map) - Standalone `bluebird.map`. Map an array to a promise.
+* [p-queue](https://github.com/sindresorhus/p-queue) - Promise queue with concurrency control
+* [p-break](https://github.com/sindresorhus/p-break) - Break out of a promise chain
+* [p-lazy](https://github.com/sindresorhus/p-lazy) - Create a lazy promise that defers execution until `.then()` or `.catch()` is called
+* [p-defer](https://github.com/sindresorhus/p-defer) - Create a deferred promise
+* [p-if](https://github.com/sindresorhus/p-if) - Conditional promise chains
+* [p-tap](https://github.com/sindresorhus/p-tap) - Tap into a promise chain without affecting its value or state
+* [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently
+* [p-all](https://github.com/sindresorhus/p-all) - Run promise-returning & async functions concurrently with optional limited concurrency
+* [p-limit](https://github.com/sindresorhus/p-limit) - Run multiple promise-returning & async functions with limited concurrency
+* [p-times](https://github.com/sindresorhus/p-times) - Run promise-returning & async functions a specific number of times concurrently
+* [p-catch-if](https://github.com/sindresorhus/p-catch-if) - Conditional promise catch handler
+* [p-time](https://github.com/sindresorhus/p-time) - Measure the time a promise takes to resolve
+* [p-log](https://github.com/sindresorhus/p-log) - Log the value/error of a promise
+* [p-filter](https://github.com/sindresorhus/p-filter) - Filter promises concurrently
+* [p-settle](https://github.com/sindresorhus/p-settle) - Settle promises concurrently and get their fulfillment value or rejection reason
+* [p-memoize](https://github.com/sindresorhus/p-memoize) - Memoize promise-returning & async functions
+* [p-whilst](https://github.com/sindresorhus/p-whilst) - Calls a function repeatedly while a condition returns true and then resolves the promise
+* [p-throttle](https://github.com/sindresorhus/p-throttle) - Throttle promise-returning & async functions
+* [p-debounce](https://github.com/sindresorhus/p-debounce) - Debounce promise-returning & async functions
+* [p-retry](https://github.com/sindresorhus/p-retry) - Retry a promise-returning or async function
+* [p-wait-for](https://github.com/sindresorhus/p-wait-for) - Wait for a condition to be true
+* [p-timeout](https://github.com/sindresorhus/p-timeout) - Timeout a promise after a specified amount of time
+* [p-race](https://github.com/sindresorhus/p-race) - A better `Promise.race()`
+* [p-try](https://github.com/sindresorhus/p-try) - `Promise#try()` ponyfill - Starts a promise chain
+* [p-finally](https://github.com/sindresorhus/p-finally) - `Promise#finally()` ponyfill - Invoked when the promise is settled regardless of outcome
+* [p-any](https://github.com/sindresorhus/p-any) - Wait for any promise to be fulfilled
+* [p-some](https://github.com/sindresorhus/p-some) - Wait for a specified number of promises to be fulfilled
+* [p-pipe](https://github.com/sindresorhus/p-pipe) - Compose promise-returning & async functions into a reusable pipeline
+* [p-each-series](https://github.com/sindresorhus/p-each-series) - Iterate over promises serially
+* [p-map-series](https://github.com/sindresorhus/p-map-series) - Map over promises serially
+* [p-reduce](https://github.com/sindresorhus/p-reduce) - Reduce a list of values using promises into a promise for a value
+* [p-props](https://github.com/sindresorhus/p-props) - Like `Promise.all()` but for `Map` and `Object`
+* [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time.
+
+### Others
 * [promise-method](https://github.com/wbinnssmith/promise-method) - Standalone `bluebird.method`. Turn a synchronously-returning method into a promise-returning one.
-* [promise-props](https://github.com/exponentjs/promise-props) - Standalone implementation of bluebird's `bluebird.props` or rsvp's `RSVP.hash`
-* [promise-reduce](https://github.com/yoshuawuyts/promise-reduce) - Standalone `bluebird.reduce`. Reduce an array to a promise.
-* [promise-some](https://github.com/yoshuawuyts/promise-some) - Standalone `bluebird.some`. Check if an element passes the predicate, return a promise.
-* [promise-try](https://github.com/wbinnssmith/promise-try) - Standalone `bluebird.try`. Execute a synchronously-returning function and return a promise.
 * [is-promise](https://github.com/then/is-promise) - Determine if something looks like a Promise.
 * [sprom](https://github.com/then/sprom) - Resolve when a stream ends. Optional buffering (be careful with this!)
 * [task.js](https://github.com/mozilla/task.js) - Write async functions in a blocking style using promises and generators. Like `bluebird.coroutine`.
 * [co](https://github.com/tj/co) - Like `task.js` and `bluebird.coroutine`, but supports thunks too.
 * [lie-fs](https://www.npmjs.com/package/lie-fs) - Promise wrappers for Node's FS API.
-* [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time.
 * [loud-rejection](https://github.com/sindresorhus/loud-rejection) - Make unhandled promise rejections fail loudly instead of the default silent fail.
-* [promise-until](https://github.com/busterc/promise-until) - Calls a function repeatedly if a condition returns false and until the condition returns true and then resolves the promise.
 * [promise-do-until](https://github.com/busterc/promise-do-until) - Calls a function repeatedly until a condition returns true and then resolves the promise.
 * [promise-do-whilst](https://github.com/busterc/promise-do-whilst) - Calls a function repeatedly while a condition returns true and then resolves the promise.
 * [promise-semaphore](https://github.com/samccone/promise-semaphore) - Push a set of work to be done in a configurable serial fashion
-* [p-immediate](https://github.com/sindresorhus/p-immediate) - Returns a promise resolved in the next event loop - think `setImmediate()`.
-* [p-whilst](https://github.com/sindresorhus/p-whilst) - Calls a function repeatedly if and while a condition returns true and then resolves the promise.
+
 ## License
 Licensed under the [Creative Commons CC0 License](https://creativecommons.org/publicdomain/zero/1.0/).
