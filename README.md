@@ -56,6 +56,7 @@ These implement no more or less than the es6 spec. They make great polyfills and
 * [native-promise-only](https://github.com/getify/native-promise-only) - Polyfill. Browser and node-compatible.
 * [es6-promise](https://github.com/stefanpenner/es6-promise) - Opt-in polyfill. A strict-spec subset of rsvp.js.
 * [lie](https://github.com/calvinmetcalf/lie) - Small, browserifyable with an opt-in polyfill.
+* [appoint](https://github.com/nswbmw/appoint) - Another small Promise implementation, inspired by lie.
 
 ### Implementations with extras
 All of these provide more features than the language yet remain compatible. Node + Browsers for all.
