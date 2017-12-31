@@ -125,6 +125,7 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 * [promise-do-whilst](https://github.com/busterc/promise-do-whilst) - Calls a function repeatedly while a condition returns true and then resolves the promise.
 * [promise-semaphore](https://github.com/samccone/promise-semaphore) - Push a set of work to be done in a configurable serial fashion
 * [promise-nodeify](https://github.com/kevinoid/promise-nodeify) - Standalone `nodeify` method which calls a Node-style callback on resolution or rejection.
+* [p-readline](https://github.com/ZaninAndrea/p-readline) - Promisified version of `readline`, useful to ask users for input
 
 ## License
 Licensed under the [Creative Commons CC0 License](https://creativecommons.org/publicdomain/zero/1.0/).
