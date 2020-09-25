@@ -40,6 +40,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. N
 * [Javascript Promises...In Wicked Detail](http://www.mattgreer.org/articles/promises-in-wicked-detail/) - Recreate the promise implementation
 * [Writing Promise-Using Specifications](https://www.w3.org/2001/tag/doc/promises-guide) - "This document gives guidance on how to write specifications that create, accept, or manipulate promises"
 * [Async functions - making promises friendly](https://developers.google.com/web/fundamentals/getting-started/primers/async-functions)
+* [Implementing promises from scratch the TDD way](https://www.mauriciopoppe.com/notes/computer-science/computation/promises/) - Write a Promises/A+ conformant implementation similar to `then/promise` from scratch, repl.it links for every implementation stage!
 
 ### References
 * [Promises/A+ specification](https://promisesaplus.com/)
