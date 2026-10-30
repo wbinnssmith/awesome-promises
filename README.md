@@ -82,6 +82,7 @@ Native and strictly spec-compliant promises are awesome for compatibility, futur
 * [loud-rejection](https://github.com/sindresorhus/loud-rejection) - Make unhandled promise rejections fail loudly instead of the default silent fail.
 * [hard-rejection](https://github.com/sindresorhus/hard-rejection) - Make unhandled promise rejections fail hard right away instead of the default silent fail
 * [p-queue](https://github.com/sindresorhus/p-queue) - Promise queue with concurrency control
+* [BetterQueue](https://github.com/Saiop68/better-queue) - Distributed rate limiter and job queue for Node.js with Redis-backed state, cross-process priority and crash recovery.
 * [p-break](https://github.com/sindresorhus/p-break) - Break out of a promise chain
 * [p-lazy](https://github.com/sindresorhus/p-lazy) - Create a lazy promise that defers execution until `.then()` or `.catch()` is called
 * [p-defer](https://github.com/sindresorhus/p-defer) - Create a deferred promise
